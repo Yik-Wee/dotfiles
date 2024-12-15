@@ -2,7 +2,11 @@
 Will switch from X11 to wayland eventually...
 
 # Installation
-TODO
+1. Install GNU stow: `sudo pacman -S stow`
+2. cd into home dir: `cd ~/`
+3. Clone the repo: `git clone https://github.com/Yik-Wee/dotfiles.git`
+4. cd into the cloned dotfiles: `cd dotfiles`
+5. Create symlinks to dotfiles: `stow .`
 
 # Packages
 ## Main stuff

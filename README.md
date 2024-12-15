@@ -1,5 +1,6 @@
 # My Dotfiles
 Will switch from X11 to wayland eventually...
+![My Setup](/screenshots/desktop_screenshot_1.png "My Setup")
 
 # Installation
 1. Install GNU stow: `sudo pacman -S stow`

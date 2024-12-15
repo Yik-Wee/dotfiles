@@ -1,0 +1,16 @@
+# wallpaper
+nitrogen --restore &
+
+# keybinds
+xbindkeys --poll-rc
+
+# compositor
+picom &
+
+# polybar
+killall -q polybar
+polybar &
+
+# system tray applets
+# volumeicon &  # volume icon in tray
+nm-applet &  # network manager icon (wifi)

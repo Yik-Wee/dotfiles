@@ -42,9 +42,10 @@ yay -S gscreenshot
 - Brightness: brightnessctl
 - Man page: man
 - Arch AUR Helper: [yay](https://github.com/Jguer/yay)
+- Process Viewer: htop
 ## Install
 ```
-sudo pacman -S firefox alsa-utils pulseaudio brightnessctl man
+sudo pacman -S firefox alsa-utils pulseaudio brightnessctl man htop
 ```
 
 ## Fonts

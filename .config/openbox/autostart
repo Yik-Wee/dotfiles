@@ -13,4 +13,6 @@ polybar &
 
 # system tray applets
 # volumeicon &  # volume icon in tray
-nm-applet &  # network manager icon (wifi)
+nm-applet &  # network manager tray applet (wifi)
+blueman-applet &  # Blueman bluetooth tray applet
+

@@ -56,7 +56,7 @@
 
 
 # screenshotting
-"gscreenshot"
+"flameshot gui -p ~/Pictures/Screenshots"
   Print
 
 # app finder

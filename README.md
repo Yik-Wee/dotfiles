@@ -24,28 +24,25 @@ The packages listed below were obtained with `pacman -Qe`, so I may have omitted
 - Compositor: picom
 - App Launcher: rofi
 - Notification Manager: dunst
-- Screnshotting: gscreenshot (installed with yay)
-- Image Viewer: gthumb
+- Screnshotting: flameshot
+- Image Viewer: feh
 - Text editors: nano, vim
 ## Install
 ```
-sudo pacman -S openbox obconf lxappearance-gtk3 kitty xterm nitrogen polybar nemo nemo-folder-icons picom rofi dunst nano vim gthumb
-```
-
-```
-yay -S gscreenshot
+sudo pacman -S openbox obconf lxappearance-gtk3 kitty xterm nitrogen polybar nemo nemo-folder-icons picom rofi dunst nano vim flameshot feh
 ```
 
 ## Misc
 - Browser: firefox
 - Audio: alsa-utils, pulseaudio (Note: should switch to pipewire)
+- Bluetooth: bluez, bluez-utils, pulseaudio-bluetooth, blueman
 - Brightness: brightnessctl
 - Man page: man
 - Arch AUR Helper: [yay](https://github.com/Jguer/yay)
 - Process Viewer: htop
 ## Install
 ```
-sudo pacman -S firefox alsa-utils pulseaudio brightnessctl man htop
+sudo pacman -S firefox alsa-utils pulseaudio brightnessctl man htop bluez, bluez-utils, pulseaudio-bluetooth, blueman
 ```
 
 ## Fonts
